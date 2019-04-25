@@ -1,0 +1,5 @@
+USER_LIB_DIR = ../extlib/dlibs/
+PKG_LIBS = ${USER_LIB_DIR}eos.a
+PKG_CPPFLAGS=-I../extlib/include
+
+	
