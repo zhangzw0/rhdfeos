@@ -1,5 +1,6 @@
-USER_LIB_DIR = ../extlib/dlibs/
-PKG_LIBS = ${USER_LIB_DIR}eos.a
+LIB_DIR = ../extlib/libs/
+PKG_LIBS = ${LIB_DIR}libdf.a ${LIB_DIR}libGctp.a ${LIB_DIR}libhdfeos.a ${LIB_DIR}libjpeg.a ${LIB_DIR}libmfhdf.a ${LIB_DIR}libz.a
+  
 PKG_CPPFLAGS=-I../extlib/include
 
 	
